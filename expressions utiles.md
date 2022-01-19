@@ -10,10 +10,11 @@ Expressions GREP utiles dans indesign
 
 ######Espace fine devant la double ponctuation
 
-* __Chercher :__ `(\s(!|\?|:))`
-* __Remplacer par :__ `~<$2`
+* __Chercher :__ `\s*(;|:|\?|\!)`
+* __Remplacer par :__ `~<$1`
 
 ---
+
 
 ######Trois points (ou plus) consécutifs en ellipse
 
